@@ -1,0 +1,94 @@
+.wrapper {
+  padding: 50px 30px 10px 30px;
+  width: min-content;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  left: 0px;
+  z-index: 999;
+  background-color: black;
+}
+
+.wrapper_for_active_mode {
+  padding: 50px 30px 10px 30px;
+  width: min-content;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  left: 0px;
+  z-index: 999;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 220px,
+    rgba(0, 0, 0, 0.9) 255px,
+    rgba(0, 0, 0, 0.9) 275px,
+    rgba(0, 0, 0, 0.8) 290px,
+    rgba(0, 0, 0, 0.8) 325px,
+    rgba(0, 0, 0, 0.7) 360px,
+    rgba(0, 0, 0, 0.7) 395px,
+    rgba(0, 0, 0, 0.5) 430px,
+    rgba(0, 0, 0, 0.5) 465px,
+    rgba(0, 0, 0, 0) 100%
+  );
+  width: 50%;
+}
+
+.icon_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 60px;
+}
+
+.active_icon_wrapper {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 14px;
+  border-radius: 50%;
+  background-color: rgb(26, 31, 48);
+  width: 60px;
+}
+
+.item_wrapper {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.active_item_wrapper {
+  width: 220px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(26, 31, 48);
+  border-radius: 12px;
+}
+
+.options_for_active_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.option_item {
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.option_item:hover {
+  color: rgb(164, 164, 164);
+}

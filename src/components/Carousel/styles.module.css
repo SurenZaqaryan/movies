@@ -1,0 +1,21 @@
+.carousel_wrapper {
+  align-self: center;
+  position: absolute;
+  bottom: 5%;
+  left: 130px;
+  width: calc(100% - 150px);
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+}
+
+.carousel_item_wrapper {
+  height: 220px;
+  padding: 10px;
+  background-color: black;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.carousel_item_wrapper:hover {
+  transform: scale(1.05);
+}
