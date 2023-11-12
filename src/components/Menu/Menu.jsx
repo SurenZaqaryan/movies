@@ -48,7 +48,7 @@ function Menu() {
           }>
           <img src={icon1} alt="icon1" />
         </div>
-        {isActiveMode && <h3>Search</h3>}
+        {isActiveMode && <h3 className={styles.item_text}>Search</h3>}
       </div>
       <div
         className={
@@ -63,7 +63,7 @@ function Menu() {
           }>
           <img src={icon2} alt="icon2" />
         </div>
-        {isActiveMode && <h3>Home</h3>}
+        {isActiveMode && <h3 className={styles.item_text}>Home</h3>}
       </div>
       <div
         className={
@@ -80,7 +80,7 @@ function Menu() {
           }>
           <img src={icon3} alt="icon3" />
         </div>
-        {isActiveMode && <h3>TV Shows</h3>}
+        {isActiveMode && <h3 className={styles.item_text}>TV Shows</h3>}
       </div>
       <div
         className={
@@ -95,7 +95,7 @@ function Menu() {
           }>
           <img src={icon4} alt="icon4" />
         </div>
-        {isActiveMode && <h3>Movies</h3>}
+        {isActiveMode && <h3 className={styles.item_text}>Movies</h3>}
       </div>
       <div
         className={
@@ -110,7 +110,7 @@ function Menu() {
           }>
           <img src={icon5} alt="icon5" />
         </div>
-        {isActiveMode && <h3>Genres</h3>}
+        {isActiveMode && <h3 className={styles.item_text}>Genres</h3>}
       </div>
       <div
         className={
@@ -127,7 +127,7 @@ function Menu() {
           }>
           <img src={icon6} alt="icon6" />
         </div>
-        {isActiveMode && <h3>Watch Later</h3>}
+        {isActiveMode && <h3 className={styles.item_text}>Watch Later</h3>}
       </div>
       {isActiveMode && (
         <div className={styles.options_for_active_menu}>

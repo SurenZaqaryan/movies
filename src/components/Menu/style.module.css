@@ -1,6 +1,6 @@
 .wrapper {
   padding: 50px 30px 10px 30px;
-  width: min-content;
+  width: 120px;
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -12,8 +12,8 @@
 }
 
 .wrapper_for_active_mode {
+  transition: width 0.2s linear;
   padding: 50px 30px 10px 30px;
-  width: min-content;
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -91,4 +91,13 @@
 }
 .option_item:hover {
   color: rgb(164, 164, 164);
+}
+
+.item_text {
+  transition: 0.2s linear;
+}
+
+.item_text:hover {
+  transform: scale(1.05);
+  color: rgb(194, 194, 194);
 }
